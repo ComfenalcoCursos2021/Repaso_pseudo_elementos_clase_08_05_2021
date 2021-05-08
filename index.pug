@@ -1,0 +1,37 @@
+doctype html
+html(lang="sp")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="shortcut icon", href="img/logo.png", type="image/png")
+        //- link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous")
+        link(rel="stylesheet", href="style.css")
+        title Pseudo elementos y clase 08 05 2021
+    body 
+        //- a(href="https://www.w3schools.com/tags/tag_wbr.asp", target="_blank", rel="noopener noreferrer") Visitar pagina web
+        //- p como estas
+        //- p(lang="en") Hello 
+        //- input(type="text", name="")
+        //- div Caja 1
+        //- div 
+        //-     p soy
+        //- input(type="text", name="" placeholder="Ingrese su nombre")
+        //- h1 Hola Mundo
+        mixin galeria(link)
+            div
+                img(src=""+link)
+
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("https://www.lesdokimos.org/media/images/Image-foi-1_UqjRHuu.2e16d0ba.fill-690x450.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        +galeria("img/Elon-Musk.jpg")
+        
